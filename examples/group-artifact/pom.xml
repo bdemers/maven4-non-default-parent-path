@@ -1,0 +1,25 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.1.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0 http://maven.apache.org/xsd/maven-4.1.0.xsd">
+
+  <modelVersion>4.1.0</modelVersion>
+
+  <parent>
+    <groupId>org.example</groupId>
+    <artifactId>project-root</artifactId>
+
+    <!-- The parent is in the reactor, so the version shouldn't be needed -->
+    <version>0.1.0-SNAPSHOT</version>
+  </parent>
+
+  <!--
+  Commenting out the version above results in the following error:
+
+  [ERROR]
+  [ERROR]   The project (null) has 1 error
+  [ERROR]     'parent.version' is missing. @ org.example:group-artifact:[unknown-version], file://<source-root>/maven4-non-default-parent-path/examples/group-artifact/pom.xml, line 7, column
+  -->
+
+  <artifactId>group-artifact</artifactId>
+
+</project>

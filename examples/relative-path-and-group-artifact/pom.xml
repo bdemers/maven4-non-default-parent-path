@@ -1,0 +1,21 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.1.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0 http://maven.apache.org/xsd/maven-4.1.0.xsd">
+
+  <modelVersion>4.1.0</modelVersion>
+
+  <parent>
+    <groupId>org.example</groupId>
+    <artifactId>project-root</artifactId>
+    <relativePath>../..</relativePath>
+  </parent>
+
+  <!--
+  [WARNING]
+  [WARNING] 1 problem was encountered while building the effective model for 'org.example:relative-path-and-group-artifact:jar:0.1.0-SNAPSHOT' (use -e to see details)
+  [WARNING] 'parent.relativePath' only specify relativePath or groupId/artifactId in modelVersion 4.1.0 @ org.example:relative-path-and-group-artifact:[unknown-version], file://<source-root>/maven4-non-default-parent-path/examples/relative-path-and-group-artifact/pom.xml, line 10, column 5
+  -->
+
+  <artifactId>relative-path-and-group-artifact</artifactId>
+
+</project>
