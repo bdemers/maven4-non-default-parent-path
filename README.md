@@ -1,0 +1,1 @@
+# Example project showing warings and errors with Maven 4 a parent pom located at `../..`
